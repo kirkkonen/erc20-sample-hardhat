@@ -1,0 +1,23 @@
+{
+  "name": "axelar-assessment",
+  "version": "1.0.0",
+  "description": "Assessment app with ERC20 contract, testnet deployment script and minting script",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mint": "npx hardhat run --network goerli scripts/mint.js",
+    "transfer": "npx hardhat run --network goerli scripts/transfer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3"
+  }
+}
