@@ -10,6 +10,11 @@ Transfers a hardcoded amount of tokens to a hardcoded address:
 
 ```shell
 npx hardhat run --network goerli scripts/transfer.js
+```
+
+Node shortcut:
+
+```shell
 npm run transfer
 ```
 
@@ -17,6 +22,10 @@ Mints a hardcoded amount of tokens for a hardcoded address:
 
 ```shell
 npx hardhat run --network goerli scripts/mint.js
+```
+
+Node shortcut:
+```shell
 npm run mint
 ```
 
